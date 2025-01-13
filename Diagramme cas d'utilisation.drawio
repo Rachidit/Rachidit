@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.5">
+  <diagram name="Page-1" id="hZN1AzQiNkyJrMS95Z0k">
+    <mxGraphModel dx="1500" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-1" value="&lt;div&gt;Chauffeur-&lt;/div&gt;&lt;div&gt;Passager chauffeur&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;fontSize=14;strokeWidth=2;fontColor=#CC0000;strokeColor=#990000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-2" value="Administrateur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="970" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-3" value="Passager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;fontSize=25;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-4" value="Employé" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="640" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-6" value="&lt;b&gt;Habiliter employé&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1080" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-7" value="&lt;b&gt;Déposer un avis&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-8" value="&lt;b&gt;Visionner historique covoiturage&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-9" value="&lt;b&gt;Déclarer trajet&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-10" value="&lt;b&gt;Annuler trajet&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-11" value="&lt;b&gt;Choisir trajet&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-12" value="&lt;b&gt;Compléter formulaire de recherche&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="231" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-13" value="&lt;b&gt;Confirmer utilisateur&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="990" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-14" value="&lt;b&gt;Valider choix trajet&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-15" value="&lt;b&gt;Se connecter&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-16" value="&lt;b&gt;Valider-Refuser un avis&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-17" value="&lt;b&gt;Visualiser trajet problématique&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-18" value="&lt;b&gt;Déclarer un trajet problématique&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-19" value="&lt;b&gt;Visionner statistiques&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="900" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-20" value="&lt;b&gt;Contacter chauffeur si trajet problématique&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="740" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-21" value="&lt;b&gt;Valider passager&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-22" value="&lt;b&gt;Suspendre un compte&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="990" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-23" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-24" value="&lt;b&gt;Déclarer véhicule&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XX6dWEvCiLwTrW3WzXDV-25" value="&lt;b&gt;Procéder au paiement&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
