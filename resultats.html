@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>EcoRide - Résultats</title>
+</head>
+
+<!--HEADER-->
+
+  <nav>
+    <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+      <a href="./" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-3" >EcoRide</span>
+      </a>
+
+      <ul class="nav nav-pills fs-4">
+        <li class="nav-item text-secondary-emphasis fs-4"><a href="./index.html" class="nav-link">Accueil</a></li>
+        <li class="nav-item"><a href="./covoituragesdispo.html" class="nav-link">Covoiturages</a></li>
+        <li class="nav-item"><a href="./formulairedecontact.html" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="./connexion.html" class="nav-link">Se connecter</a></li>
+      </ul>
+    </header>
+  </nav>
+
+<!--BODY-->
+<body>
+  
+  <section class="bg-success">
+    <h3 class="text-white py-4 d-flex justify-content-center">EcoRide, plateforme de covoiturage écologique par nature</h3>
+    <div class="container d-flex flex-wrap wrap">
+        <div>
+        <label for="Adresse de départ"></label>
+        <input type="text" id="Adresse de départ" name="Adresse de départ" required placeholder="Adresse de départ - Adresse d'arivée"  class="text-center rounded py-2" size="60" />
+        <h3 class="text-white fs 2 py-2 my-4">Lundi 20 janvier 2025</h3>
+       
+    <!-- Déporter les bouton 18,50€ et Détails sur la droite de la tuile et a gauche des lieux, ici Bordeaux MDM l'horaire du trajet + couleur des liens bourton-->
+                <div class="card">
+                    <div class="card-body text-success card-title">
+                        <h3>Bordeaux</h3> <button type="submit" class="btn btn-success fs-4">18,50€</button>
+                        <h3>Mont de Marsan</h3>
+                        <div class="mb-1">
+                            Place(s) disponibles : 2 <br>
+                            Voyage écologique : non <br><br>
+                            Marcel Patoulatchy 
+                        </div>
+                        <div class="container"></div>
+                            <img src="./" alt="Avatar">  
+                            <button type="submit" class="btn btn-success d-flex justify-content-end fs-4"><a href="./Détails.html">Détails</a></button>
+                        </div>
+                  </div>
+                  <br>
+                  <br>
+
+
+                  <div class="card">
+                    <div class="card-body text-success card-title">
+                        <h3>Bordeaux</h3> <button type="submit" class="btn btn-success align-items-center ">18,50€</button>
+                        <h3>Mont de Marsan</h3>
+                        <div class="mb-1">
+                          Place(s) disponibles : 2 <br>
+                          Voyage écologique : non <br><br>
+                          Marcel Patoulatchy 
+                        </div>
+                        <div class="container"></div>
+                            <img src="./" alt="Avatar">  
+                            <button type="submit" class="btn btn-success d-flex justify-content-end fs-4 "><a href="./Détails.html">Détails</a></button>
+                        </div>
+                  </div>
+                  <br>
+                  <br>
+
+                  <div class="card">
+                    <div class="card-body text-success card-title">
+                      <h3>Bordeaux</h3> <button type="submit" class="btn btn-success d-flex justify-content-end fs-4 ">18,50€</button>
+                        <h3>Mont de Marsan</h3>
+                        <div class="mb-1">
+                          Place(s) disponibles : 2 <br>
+                          Voyage écologique : non <br><br>
+                          Marcel Patoulatchy 
+                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none"><path fill="url(#fluentColorStar480)" d="M21.803 6.086c.899-1.821 3.495-1.821 4.394 0l4.852 9.832l10.85 1.576c2.01.293 2.813 2.762 1.358 4.18l-7.85 7.653l1.853 10.806c.343 2.001-1.758 3.528-3.555 2.583L24 37.614l-9.705 5.102c-1.797.945-3.898-.582-3.555-2.583l1.854-10.806l-7.851-7.654c-1.455-1.417-.652-3.886 1.357-4.178l10.85-1.577z"/><defs><linearGradient id="fluentColorStar480" x1="43.995" x2="2.879" y1="43.856" y2="5.054" gradientUnits="userSpaceOnUse"><stop stop-color="#ff6f47"/><stop offset="1" stop-color="#ffcd0f"/></linearGradient></defs></g></svg>
+                          </div>
+                        <div class="container">
+                            <img src="./" alt="Avatar">  
+                            <button type="submit" class="btn btn-success d-flex justify-content-end fs-4 "><a href="./Détails.html">Détails</a></button>
+                        </div>
+                        </div>
+                  </div>
+                  <br>
+                  <br>
+
+<!-- Filtres Filtres Filtres -->
+
+        <div class="container text-white">
+              <div class="card-body">
+                  <h2 class="card-title my-4">Filtrer</h2>
+                 
+                  <form>
+                    <div class="mb-3">
+                      <label for="ecologic_carpool" class="me-5">Voyage écologique</label>
+                        <button class="onoff px-2" onclick="onoff(this)" name="ecologic_carpool" id="ecologic_carpool" required><div>oui</div></button>
+                        <input type="checkbox" id="switch" class="checkbox">
+                      <label for="switch" class="toogle"></label>
+                    </div>
+                      <div class="mb-3 d-flex align-items-center">
+                        <label for="pricemaxi" class="me-5">Prix maxi</label>
+                          <input type="text" class="form-control" name="pricemaxi" id="pricemaxi" required>
+                      </div>
+                      <div class="mb-3 d-flex align-items-center">
+                        <label for="duration" class="me-auto">Durée du trajet</label>
+                          <input type="text" class="form-control" name="duration" id="duration"  required>
+                      </div>
+                      <div class="mb-3 d-flex align-items-center">
+                        <label for="Notes" class="me-5 pe-5">Notes</label>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none"><path fill="url(#fluentColorStar480)" d="M21.803 6.086c.899-1.821 3.495-1.821 4.394 0l4.852 9.832l10.85 1.576c2.01.293 2.813 2.762 1.358 4.18l-7.85 7.653l1.853 10.806c.343 2.001-1.758 3.528-3.555 2.583L24 37.614l-9.705 5.102c-1.797.945-3.898-.582-3.555-2.583l1.854-10.806l-7.851-7.654c-1.455-1.417-.652-3.886 1.357-4.178l10.85-1.577z"/><defs><linearGradient id="fluentColorStar480" x1="43.995" x2="2.879" y1="43.856" y2="5.054" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff"/></linearGradient></defs></g></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none"><path fill="url(#fluentColorStar480)" d="M21.803 6.086c.899-1.821 3.495-1.821 4.394 0l4.852 9.832l10.85 1.576c2.01.293 2.813 2.762 1.358 4.18l-7.85 7.653l1.853 10.806c.343 2.001-1.758 3.528-3.555 2.583L24 37.614l-9.705 5.102c-1.797.945-3.898-.582-3.555-2.583l1.854-10.806l-7.851-7.654c-1.455-1.417-.652-3.886 1.357-4.178l10.85-1.577z"/><defs><linearGradient id="fluentColorStar480" x1="43.995" x2="2.879" y1="43.856" y2="5.054" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff"/></linearGradient></defs></g></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none"><path fill="url(#fluentColorStar480)" d="M21.803 6.086c.899-1.821 3.495-1.821 4.394 0l4.852 9.832l10.85 1.576c2.01.293 2.813 2.762 1.358 4.18l-7.85 7.653l1.853 10.806c.343 2.001-1.758 3.528-3.555 2.583L24 37.614l-9.705 5.102c-1.797.945-3.898-.582-3.555-2.583l1.854-10.806l-7.851-7.654c-1.455-1.417-.652-3.886 1.357-4.178l10.85-1.577z"/><defs><linearGradient id="fluentColorStar480" x1="43.995" x2="2.879" y1="43.856" y2="5.054" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff"/></linearGradient></defs></g></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none"><path fill="url(#fluentColorStar480)" d="M21.803 6.086c.899-1.821 3.495-1.821 4.394 0l4.852 9.832l10.85 1.576c2.01.293 2.813 2.762 1.358 4.18l-7.85 7.653l1.853 10.806c.343 2.001-1.758 3.528-3.555 2.583L24 37.614l-9.705 5.102c-1.797.945-3.898-.582-3.555-2.583l1.854-10.806l-7.851-7.654c-1.455-1.417-.652-3.886 1.357-4.178l10.85-1.577z"/><defs><linearGradient id="fluentColorStar480" x1="43.995" x2="2.879" y1="43.856" y2="5.054" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff"/></linearGradient></defs></g></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none"><path fill="url(#fluentColorStar480)" d="M21.803 6.086c.899-1.821 3.495-1.821 4.394 0l4.852 9.832l10.85 1.576c2.01.293 2.813 2.762 1.358 4.18l-7.85 7.653l1.853 10.806c.343 2.001-1.758 3.528-3.555 2.583L24 37.614l-9.705 5.102c-1.797.945-3.898-.582-3.555-2.583l1.854-10.806l-7.851-7.654c-1.455-1.417-.652-3.886 1.357-4.178l10.85-1.577z"/><defs><linearGradient id="fluentColorStar480" x1="43.995" x2="2.879" y1="43.856" y2="5.054" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff"/></linearGradient></defs></g></svg>
+                      </div>
+                      <br>
+                      <br>
+
+<!-- Suite résultats trajets-->
+               
+              <div class="card">
+                <div class="card-body text-success card-title">
+                    <h3>Bordeaux</h3> <button type="submit" class="btn btn-success d-flex justify-content-end fs-4 ">18,50€</button>
+                    <h3>Mont de Marsan</h3>
+                    <div class="mb-1">
+                      Place(s) disponibles : 2 <br>
+                      Voyage écologique : non <br><br>
+                      Marcel Patoulatchy 
+                    </div>
+                    <div class="container"></div>
+                        <img src="./" alt="Avatar">  
+                        <button type="submit" class="btn btn-success d-flex justify-content-end fs-4 "><a href="./Détails.html">Détails</a></button>
+                    </div>
+              </div>
+              <br>
+              <br>
+
+              <div class="card">
+                <div class="card-body text-success card-title">
+                    <h3>Bordeaux</h3> <button type="submit" class="btn btn-success d-flex justify-content-end fs-4 ">18,50€</button>
+                    <h3>Mont de Marsan</h3>
+                    <div class="mb-1">
+                      Place(s) disponibles : 2 <br>
+                      Voyage écologique : non <br><br>
+                      Marcel Patoulatchy 
+                    </div>
+                    <div class="container"></div>
+                        <img src="./" alt="Avatar">  
+                        <button type="submit" class="btn btn-success d-flex justify-content-end fs-4 "><a href="./Détails.html">Détails</a></button>
+                    </div>
+                  </div>
+              <br>
+              <br>
+              <br>   
+  </section>
+
+<!--FOOTER-->
+
+<footer class="bg-body-tertiary text-success py-3">
+  <div class="container">
+    <div class="row">
+        <!-- About Us -->
+        <div class=" d-flex justify-content-between">
+            <h5>contact@ecoride.fr</h5>
+            <h5>© 2024 EcoRide - Tous droits réservés.</h5>
+            <h5><a href="./mentionslegales.html">Mentions légales</a></h5>
+            </div>
+        </div>
+      </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

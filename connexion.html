@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>EcoRide - Se connecter</title>
+</head>
+
+<!--HEADER-->
+
+  <nav>
+    <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+      <a href="./" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-3" >EcoRide</span>
+      </a>
+
+      <ul class="nav nav-pills fs-4">
+        <li class="nav-item text-secondary-emphasis fs-4"><a href="./index.html" class="nav-link">Accueil</a></li>
+        <li class="nav-item"><a href="./covoituragesdispo.html" class="nav-link">Covoiturages</a></li>
+        <li class="nav-item"><a href="./formulairedecontact.html" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Se connecter</a></li>
+      </ul>
+    </header>
+    </nav>
+
+<!--BODY-->
+
+<body>  
+        <section class="bg-success">
+          <br>
+          <h3 class="text-white py-4 d-flex justify-content-center">EcoRide, plateforme de covoiturage écologique par nature</h3>
+          <br>
+    <div class="container text-white">
+        <div class="card-body">
+                    <h3 class="card-title d-flex justify-content-center">Informations de connexion</h3>  
+            <br>
+            <br>
+      <p >   
+        <h5 class="d-flex justify-content-center">Conseil sécurité : </h5>
+        <h6 class="d-flex justify-content-center">Votre mot de passe ne doit être saisi que lorsque vous vous connectez à votre espace personnel. <br>
+        EcoRide  ne vous le demandera jamais par e-mail, par téléphone ou via des liens. <br>
+        Il est important de rester vigilant et de ne jamais répondre à de telles sollicitations.<br>
+            <br>
+            Vous n'êtes pas encore inscrit ?<a href="./s'enregistrer.html" class=" mx-4">Inscrivez-vous</a>
+        </h6>
+        <br>
+        <br>
+        <br>
+
+            
+<!-- FORMULAIRE DE CONNEXION -->
+            <div class="container text-white col-6">
+                <div class="card-body">
+                    <div class="my-4 d-flex align-items-center">                           
+                        <label for="pseudo" class="me-5">Pseudo</label>
+                        <input type="text" class="form-control" name="pseudo" id="pseudo" required>
+                    </div>
+                    <div class="mb-3">
+                        <div class="mb-2,5 d-flex align-items-center">  
+                           <label for="password" class=" pe-3">Mot de passe</label>
+                           <input type="text" class="form-control" name="password" id="password" required>
+                    </div>
+                    <button type="submit" class="btn btn-light text-success text-bold px-4 mt-5"><strong><a href="./profil.html">Se connecter</a></strong></button>
+                </div></div></div>
+                <br>
+                <br>
+                <br>
+
+<!-- Partie code à reprendre, fais suite au code du dessus rectifié-->
+
+    <script>
+        document.getElementById('signupForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            let username = document.getElementById('username').value;
+            let email = document.getElementById('email').value;
+            let password = document.getElementById('password').value;
+            let confirmPassword = document.getElementById('confirmPassword').value;
+            let message = document.getElementById('message');
+            let passwordError = document.getElementById('passwordError');
+            let confirmPasswordError = document.getElementById('confirmPasswordError');
+
+            let passwordValid = validatePassword(password);
+            if (!passwordValid) {
+                passwordError.textContent = 'Password does not meet the requirements.';
+                return;
+            } else {
+                passwordError.textContent = '';
+            }
+
+            if (password !== confirmPassword) {
+                confirmPasswordError.textContent = 'Passwords do not match!';
+                return;
+            } else {
+                confirmPasswordError.textContent = '';
+            }
+
+            // Here you can add code to send the form data to the server
+
+            message.style.color = 'green';
+            message.textContent = 'Signup successful!';
+        });
+
+        document.getElementById('password').addEventListener('focus', function () {
+            document.getElementById('passwordHint').style.display = 'block';
+        });
+
+        document.getElementById('password').addEventListener('blur', function () {
+            document.getElementById('passwordHint').style.display = 'none';
+        });
+
+        document.getElementById('password').addEventListener('input', function () {
+            let password = this.value;
+            let passwordStrength = document.getElementById('passwordStrength');
+            let strength = getPasswordStrength(password);
+
+            passwordStrength.innerHTML = ''; // Clear previous strength bars
+            if (strength) {
+                let strengthBar = document.createElement('div');
+                strengthBar.className = strength;
+                passwordStrength.appendChild(strengthBar);
+            }
+        });
+
+        function validatePassword(password) {
+            let regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+            return regex.test(password);
+        }
+
+        function getPasswordStrength(password) {
+            if (password.length < 8) {
+                return 'weak';
+            }
+            if (password.match(/(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])/)) {
+                return 'strong';
+            }
+            return 'medium';
+        }
+    </script>
+
+
+<!--FOOTER-->
+
+</section>
+
+<!--FOOTER-->
+
+<footer class="bg-body-tertiary text-success py-3">
+  <div class="container">
+    <div class="row">
+        <!-- About Us -->
+        <div class=" d-flex justify-content-between">
+            <h5>contact@ecoride.fr</h5>
+            <h5>© 2024 EcoRide - Tous droits réservés.</h5>
+            <h5><a href="./mentionslegales.html">Mentions légales</a></h5>
+         </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
