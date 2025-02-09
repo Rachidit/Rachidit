@@ -1,77 +1,77 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.11">
   <diagram name="Page-1" id="hZN1AzQiNkyJrMS95Z0k">
-    <mxGraphModel dx="735" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-1" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Chauffeur-&lt;br&gt;Passager chauffeur&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;fontSize=14;strokeWidth=2;fontColor=#CC0000;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="50" y="360" width="60" height="110" as="geometry" />
+          <mxGeometry x="60" y="460" width="60" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-2" value="Administrateur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="50" y="970" width="60" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-3" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Passager&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fontStyle=1;fontSize=25;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="50" y="80" width="60" height="110" as="geometry" />
+          <mxGeometry x="60" y="160" width="60" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-4" value="Employé" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="50" y="640" width="60" height="120" as="geometry" />
+          <mxGeometry x="60" y="740" width="60" height="120" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-6" value="&lt;b&gt;Habiliter employé&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="1080" width="120" height="80" as="geometry" />
+          <mxGeometry x="670" y="1070" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-7" value="&lt;b&gt;Déposer un avis&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="540" y="190" width="120" height="80" as="geometry" />
+          <mxGeometry x="540" y="290" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-8" value="&lt;b&gt;Visionner historique covoiturage&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="240" y="450" width="120" height="80" as="geometry" />
+          <mxGeometry x="260" y="565" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-9" value="&lt;b&gt;Déclarer trajet&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="320" width="120" height="80" as="geometry" />
+          <mxGeometry x="680" y="460" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-10" value="&lt;b&gt;Annuler trajet&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="540" y="100" width="120" height="80" as="geometry" />
+          <mxGeometry x="540" y="200" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-11" value="&lt;b&gt;Choisir trajet&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="540" y="10" width="120" height="80" as="geometry" />
+          <mxGeometry x="540" y="110" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-12" value="&lt;b&gt;Compléter formulaire de recherche&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="260" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="270" y="280" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-13" value="&lt;b&gt;Confirmer utilisateur&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="990" width="120" height="80" as="geometry" />
+          <mxGeometry x="670" y="960" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-14" value="&lt;b&gt;Valider choix trajet&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="10" width="120" height="80" as="geometry" />
+          <mxGeometry x="670" y="110" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-15" value="&lt;b&gt;Se connecter&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="240" y="360" width="120" height="80" as="geometry" />
+          <mxGeometry x="260" y="450" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-16" value="&lt;b&gt;Valider-Refuser un avis&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="650" width="120" height="80" as="geometry" />
+          <mxGeometry x="680" y="735" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-17" value="&lt;b&gt;Visualiser trajet problématique&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="560" width="120" height="80" as="geometry" />
+          <mxGeometry x="520" y="835" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-18" value="&lt;b&gt;Déclarer un trajet problématique&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="670" y="100" width="120" height="80" as="geometry" />
+          <mxGeometry x="670" y="200" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-19" value="&lt;b&gt;Visionner statistiques&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="900" width="120" height="80" as="geometry" />
+          <mxGeometry x="480" y="960" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-20" value="&lt;b&gt;Contacter chauffeur si trajet problématique&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="740" width="120" height="80" as="geometry" />
+          <mxGeometry x="680" y="835" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-21" value="&lt;b&gt;Valider passager&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="420" width="120" height="80" as="geometry" />
+          <mxGeometry x="680" y="560" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-22" value="&lt;b&gt;Suspendre un compte&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="540" y="990" width="120" height="80" as="geometry" />
+          <mxGeometry x="480" y="1070" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-24" value="&lt;b&gt;Déclarer véhicule&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="530" y="320" width="120" height="80" as="geometry" />
+          <mxGeometry x="530" y="565" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XX6dWEvCiLwTrW3WzXDV-25" value="&lt;b&gt;Procéder au paiement&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="670" y="190" width="120" height="80" as="geometry" />
+          <mxGeometry x="670" y="290" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nex_Uw4ERr5bmBu-YxG8-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -82,35 +82,41 @@
         <mxCell id="nex_Uw4ERr5bmBu-YxG8-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="1165" as="sourcePoint" />
-            <mxPoint x="200" y="5" as="targetPoint" />
+            <mxPoint x="200" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nex_Uw4ERr5bmBu-YxG8-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="14" y="300" as="sourcePoint" />
-            <mxPoint x="814" y="300" as="targetPoint" />
+            <mxPoint x="14" y="400" as="sourcePoint" />
+            <mxPoint x="814" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nex_Uw4ERr5bmBu-YxG8-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="14" y="880" as="sourcePoint" />
-            <mxPoint x="814" y="880" as="targetPoint" />
+            <mxPoint x="14" y="940" as="sourcePoint" />
+            <mxPoint x="814" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nex_Uw4ERr5bmBu-YxG8-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="560" as="sourcePoint" />
-            <mxPoint x="810" y="560" as="targetPoint" />
+            <mxPoint x="19" y="680" as="sourcePoint" />
+            <mxPoint x="809" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nex_Uw4ERr5bmBu-YxG8-11" value="&lt;b&gt;Visionner historique covoiturage&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="240" y="600" width="120" height="80" as="geometry" />
+          <mxGeometry x="260" y="715" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nex_Uw4ERr5bmBu-YxG8-14" value="&lt;b&gt;Se connecter&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="250" y="40" width="120" height="80" as="geometry" />
+          <mxGeometry x="270" y="140" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nex_Uw4ERr5bmBu-YxG8-15" value="&lt;b&gt;Se connecter&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="240" y="720" width="120" height="80" as="geometry" />
+          <mxGeometry x="260" y="835" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svSA6IUk_D_iqBtngt1n-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Diagramme de cas d&#39;utilisation&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svSA6IUk_D_iqBtngt1n-2" value="&lt;b&gt;Se connecter&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1040" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
